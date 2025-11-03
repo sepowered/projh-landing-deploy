@@ -91,7 +91,8 @@ export default function Service() {
               <div class="service_contents__paragraph">
                 <h2>지역과 함께 만드는 경험</h2>
                 <span>
-                  호스트가 직접 기획한 봉사활동, 창작 워크숍, 커뮤니티 미션을 통해 <br/>
+                  호스트가 직접 기획한 봉사활동, 창작 워크숍, 커뮤니티 미션을
+                  통해 <br />
                   게스트가 지역의 삶과 문화를 몸소 경험하고 교류할 수 있어요.
                 </span>
               </div>
@@ -104,8 +105,11 @@ export default function Service() {
           <div className="service-content-box">
             {/* <img src="/slide_3.png" alt="슬라이드 3" className="layer-bg" /> */}
             <div class="service_contents__paragraph">
-              <h2></h2>
-              <span></span>
+              <h2>참여로 쌓고, 지역에 돌려주는 로컬 포인트</h2>
+              <span>
+                봉사활동이나 프로그램 참여로 로컬 포인트를 적립해요. 모은 포인트는 <br />
+                지역 식당, 카페, 편의시설에서 사용되어 작은 소비가 지역의 활력으로 이어집니다.
+              </span>
             </div>
           </div>
         </div>
