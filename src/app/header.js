@@ -47,12 +47,12 @@ export default function Header() {
   }, [isTeamOpen]);
 
   const teamMembers = [
-    { name: "박다빈", url: "#portfolio_link" },
-    { name: "노권후", url: "#portfolio_link" },
-    { name: "심정빈", url: "#portfolio_link" },
-    { name: "오정은", url: "#portfolio_link" },
-    { name: "배준일", url: "#portfolio_link" },
-    { name: "김지현", url: "#portfolio_link" },
+    { name: "박다빈", url: "https://planner-dabinpark.notion.site" },
+    { name: "노권후", url: "https://stile.im" },
+    { name: "심정빈", url: "https://www.instagram.com/oneul_is_day/" },
+    { name: "오정은", url: "https://www.behance.net/caf4d781/" },
+    { name: "배준일", url: "https://ji009868.github.io/react-portfolio/" },
+    { name: "김지현", url: "https://dmdhyunk.github.io/react-portfolio/" },
   ];
 
   return (
