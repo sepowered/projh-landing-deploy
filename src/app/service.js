@@ -86,14 +86,27 @@ export default function Service() {
         {/* ============ SLIDE 2 ============ */}
         <div className="service-slide slide-2" ref={slide2Ref}>
           <div className="service-content-box">
-            <img src="/slide_2.png" alt="슬라이드 2" className="layer-bg" />
+            {/* <img src="/slide_2.png" alt="슬라이드 2" className="layer-bg" /> */}
+            <div className="service_contents-box2">
+              <div class="service_contents__paragraph">
+                <h2>지역과 함께 만드는 경험</h2>
+                <span>
+                  호스트가 직접 기획한 봉사활동, 창작 워크숍, 커뮤니티 미션을 통해 <br/>
+                  게스트가 지역의 삶과 문화를 몸소 경험하고 교류할 수 있어요.
+                </span>
+              </div>
+            </div>
           </div>
         </div>
 
         {/* ============ SLIDE 3 ============ */}
         <div className="service-slide slide-3" ref={slide3Ref}>
           <div className="service-content-box">
-            <img src="/slide_3.png" alt="슬라이드 3" className="layer-bg" />
+            {/* <img src="/slide_3.png" alt="슬라이드 3" className="layer-bg" /> */}
+            <div class="service_contents__paragraph">
+              <h2></h2>
+              <span></span>
+            </div>
           </div>
         </div>
 
