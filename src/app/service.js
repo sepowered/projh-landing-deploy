@@ -86,14 +86,35 @@ export default function Service() {
         {/* ============ SLIDE 2 ============ */}
         <div className="service-slide slide-2" ref={slide2Ref}>
           <div className="service-content-box">
-            <img src="/slide_2.png" alt="슬라이드 2" className="layer-bg" />
+            {/* <img src="/slide_2.png" alt="슬라이드 2" className="layer-bg" /> */}
+            <div class="service_contents__paragraph">
+              <h2>지역과 함께 만드는 경험</h2>
+              <span>
+                호스트가 직접 기획한 봉사활동, 창작 워크숍, 커뮤니티 미션을 통해{" "}
+                <br />
+                게스트가 지역의 삶과 문화를 몸소 경험하고 교류할 수 있어요.
+              </span>
+            </div>
+            <img src="/slide2-mockup.png" alt="iPhone Mockup" />
           </div>
         </div>
 
         {/* ============ SLIDE 3 ============ */}
         <div className="service-slide slide-3" ref={slide3Ref}>
           <div className="service-content-box">
-            <img src="/slide_3.png" alt="슬라이드 3" className="layer-bg" />
+            {/* <img src="/slide_3.png" alt="슬라이드 3" className="layer-bg" /> */}
+            <div className="service_contents__paragraph" id="service_contents__paragraph3">
+              <h2>참여로 쌓고, 지역에 돌려주는 로컬 포인트</h2>
+              <span>
+                봉사활동이나 프로그램 참여로 로컬 포인트를 적립해요. 모은
+                포인트는 <br />
+                지역 식당, 카페, 편의시설에서 사용되어 작은 소비가 지역의
+                활력으로 이어집니다.
+              </span>
+            </div>
+            <div class="slide3-gradient"></div>
+            <img src="/slide3-mockup.png" alt="iPhone Mockup" />
+            <img class="slide3-coin" src="/slide3-coin.png" alt="coin 3d graphic" />
           </div>
         </div>
 
